@@ -5,7 +5,7 @@ def find_even_values(src)
 
   for x in src
     for y in x 
-      if y.iseven?
+      if y.even?
         puts y
       end 
     end 
